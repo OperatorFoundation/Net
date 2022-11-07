@@ -9,7 +9,7 @@ import Foundation
 
 import Datable
 
-enum AddressSize: Int, Codable
+public enum AddressSize: Int, Codable
 {
     case v4 = 4
     case v6 = 16
